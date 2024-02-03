@@ -5,7 +5,7 @@ const Hero = () => {
     <div className="w-full hero md:h-[70vh] novasquare flex justify-center md:pt-[30px]">
       <div className="flex  flex-col md:flex-row items-center justify-between md:p-5 py-10 px-4">
         <div className="flex flex-col gap-3 sm:items-center items-center">
-          <h1 className="max-w-[600px] font-bold text-center sm:text-center sm:text-6xl hero-text text-3xl">
+          <h1 className="max-w-[600px] font-bold text-center sm:text-center sm:text-6xl hero-text text-4xl">
             Introducing{" "}
             <i className="bg-gradient-linear bg-clip-text text-transparent">
               Rufus
@@ -15,6 +15,8 @@ const Hero = () => {
           </h1>
           <p className="sm:text-base sm:text-center text-center text-base font-normal max-w-[500px] text-[#fff]">
             {/* the forthcoming rollout of generative AI tools to its staff and clients.   */}
+            Enhance your Amazon experience, save time, and make informed
+            decisions with the help of this intelligent shopping assistant.
           </p>
           <a
             href="https://dexscreener.com/ethereum/"

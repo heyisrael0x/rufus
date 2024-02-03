@@ -3,7 +3,7 @@ import { logo, pepe1 } from "../assets";
 const Section4 = () => {
   return (
     <div className="w-full novasquare flex justify-center md:pt-[30px]">
-      <div className="flex flex-col md:flex-row items-center justify-between md:p-5 py-10 px-4">
+      <div className="flex flex-col md:flex-row gap-5 items-center justify-between md:p-5 py-10 px-4">
         <div className="flex flex-col gap-3 sm:items-cebter items-center">
           <h1 className="font-bold text-center sm:text-center sm:text-6xl text-3xl">
             Get Started <br />

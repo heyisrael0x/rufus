@@ -20,9 +20,12 @@ const Card = ({ icon, title, subtitle }) => (
 const Section2 = () => {
   return (
     <div className="w-full novasquare my-[20px] ">
-      <div className="w-full text-white text-4xl font-bold flex text-center items-center justify-center">
-      How to Use Rufus AI
-      </div>
+      <h1 className="font-bold text-center sm:text-center sm:text-6xl text-3xl">
+        How to use{" "}
+        <i className="bg-gradient-linear bg-clip-text text-transparent">
+          Rufus
+        </i>
+      </h1>
       <div className="flex flex-wrap w-screen my-[20px] gap-[26px] novasquare justify-center items-center">
         <Card
           icon={<BsTelegram fontSize={21} className="text-[#ffff]" />}
