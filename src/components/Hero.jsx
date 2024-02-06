@@ -1,6 +1,12 @@
 import { logo, logo1 } from "../assets";
+import { LuCopy } from "react-icons/lu";
 
 const Hero = () => {
+  const copy = (text) => {
+    navigator.clipboard.writeText(text);
+    // console.log("copied")
+  };
+
   return (
     <div className="w-full hero md:h-[70vh] novasquare flex justify-center md:pt-[30px]">
       <div className="flex  flex-col md:flex-row items-center justify-between md:p-5 py-10 px-4">
@@ -24,7 +30,7 @@ const Hero = () => {
             rel="noopener noreferrer"
           >
             <p className="sm:text-lg sm:text-left text-center underline text-[12px] font-normal text-[#fff]">
-              CA: 0x
+              {/* CA: 0x */}
             </p>
           </a>
           <div>
@@ -35,16 +41,19 @@ const Hero = () => {
                 rel="noopener noreferrer"
               >
                 <button className="bg-[#28282B] text-white p-[0.625rem] px-4 border-[0.5px] rounded-[3.125rem] border-[#424242] flex items-center gap-[0.62rem]">
-                  Buy $RUFUSAI
+                  ETH: 0xd..4sy <LuCopy />
                 </button>
               </a>
               <a
-                href="https://dexscreener.com/ethereum/"
+                // href="#"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <button className="bg-[#28282B] text-white p-[0.625rem] px-4 border-[0.5px] rounded-[3.125rem] border-[#424242] flex items-center gap-[0.62rem]">
-                  Check Chart
+                <button
+                  onClick={console.log("clicked")}
+                  className="bg-[#28282B] text-white p-[0.625rem] px-4 border-[0.5px] rounded-[3.125rem] border-[#424242] flex items-center gap-[0.62rem]"
+                >
+                  Sol: 761..5ar <LuCopy />
                 </button>
               </a>
             </div>
