@@ -187,9 +187,9 @@ button:focus-visible {
 
 
 .bg1{
-  background-image: url(assets/shopping.jpg);
+  background-image: url(assets/logo.jpg);
   background-position: center;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
 }
 .bg2{

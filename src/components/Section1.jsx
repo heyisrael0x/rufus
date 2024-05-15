@@ -5,17 +5,13 @@ const Section1 = () => {
     <>
       <div
         className="flex flex-col items-center justify-center w-screen my-10 sm:px-32 px-5 novasquare"
-        id=""
+        id="about"
       >
         <div className="w-full white-glassmorphis">
           <div className="p-5 sec1 w-full h-full flex rounded-[16px] flex-col justify-center items-center">
             <div className="flex flex-col md:flex-row items-center justify-between">
               <p className="text-white font-extralight text-justify sm:text-center max-w-[1000px] mb-10">
-                Welcome to the future of intelligent shopping assistance!
-                Introducing Rufus AI ($RufusAI), your expert companion for
-                navigating the vast world of Amazon. Say goodbye to the hassle
-                of endless scrolling and sifting through countless
-                products—Rufus AI is here to simplify your shopping journey.
+              Keith Patrick Gill, also known as Roaring Kitty and DeepF***ingValue, gained widespread attention for his influential role in the GameStop stock saga. His famous quote, "I like this stock," became a rallying cry among retail investors during the unprecedented surge in GameStop's stock price in early 2021. Gill, a former financial analyst, shared his bullish thesis on GameStop on online forums like Reddit's WallStreetBets, attracting a legion of individual investors.
               </p>
               {/* <div className="">
                 <img src={logo} alt="logo" width={500} />

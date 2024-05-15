@@ -27,10 +27,7 @@ const Section3 = () => {
             <div className="flex flex-col gap-5 sm:items-center items-center">
               <h1 className="font-bold text-center sm:text-center sm:text-6xl text-3xl">
                 <div className="flex flex-col flex-1 justify-start md:ml-10 icon-fade">
-                  Elevate Your Amazon Shopping Experience with
-                  <i className="bg-gradient-linear bg-clip-text text-transparent">
-                    Rufus AI
-                  </i>
+                  $STOCK
                 </div>
               </h1>
 
@@ -46,12 +43,12 @@ const Section3 = () => {
                   subtitle="Ask Rufus AI anything about shopping, and watch as it delivers precise and relevant information. From product specifications to reviews and comparisons, Rufus AI is your go-to source for all Amazon."
                   bg="bg1"
                 />
-                <Card
+                {/* <Card
                   icon={<MdGroups3 fontSize={21} className="text-[#000]" />}
                   title="Real-Time Updates"
                   subtitle="Rufus AI is constantly updated with the latest information from Amazon, ensuring that you receive real-time updates on product availability, prices, and promotions. Never miss out on a great deal again!"
                   bg="bg2"
-                />
+                /> */}
               </div>
               {/* <div className="flex gap-4">
                 <a href="https://Twitter.com/Tate_Fork">

@@ -13,8 +13,8 @@ function App() {
         <Hero />
       </div>
       <Section1 />
-      <Section3 />
-      <Section2 />
+      {/* <Section3 /> */}
+      {/* <Section2 /> */}
       <Section4 />
       {/* <Footer /> */}
     </div>
